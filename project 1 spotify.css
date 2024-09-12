@@ -1,0 +1,139 @@
+body{font-family: "Nunito", system-ui;
+    margin: 0;
+    color: white;
+    background-color: black;
+    overflow: hidden;
+}
+
+.main{display: flex;
+height: 100vh;
+padding: 0.5rem;}
+
+.sidebar{background-color: black;
+width: 340px;
+border-radius: 1rem;
+margin-right : 1rem;}
+
+.main-content{background-color: #121212;
+
+flex:1;
+border-radius: 1rem;
+padding: 0  1.5rem 0 1.5rem;
+overflow: scroll;}
+
+.player{background-color: #121212;
+position: fixed;
+bottom: 0px;
+height: 70px;
+width: 100%;}
+
+.nav{background-color: #121212 ;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    height: 100px;
+    padding:0.5rem 0.75rem;}
+
+a{text-decoration: none;
+color:white;}
+
+.nav-option{line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.3rem;
+}
+.nav-option i{font-size: 1.25 rem;}
+.nav-option:hover{opacity:1;}
+.nav-option a{margin-left: 1rem;}
+
+.options{display: flex;
+height: 100%;
+margin-top: 1rem;
+padding: 0.5rem 0.75rem;}
+
+.library{background-color: #121212;
+border-radius: 1rem;}
+
+.lib-options img{height: 1.25rem;
+width: 1.25rem;}
+
+.lib-options a{opacity:0.7;
+margin-left: 1rem;}
+
+.icons{position: absolute;
+left: 300px;
+display: flex;
+
+}
+
+.icons i{margin-right: 1rem;
+    opacity: 0.7;}
+
+
+.lib-options :hover{opacity: 1;}
+.icons:hover{opacity: 1;}
+
+.box{margin: 0.5rem 0 0.5rem 0;
+padding: 1rem 1.25rem;
+height: 8rem;
+border-radius: 0.75 rem;}
+
+.pt1{font-size: 1rem;
+font-weight: 700;}
+
+.pt2{font-size: 0.75rem;
+opacity: 0.8;}
+
+.badge{border: none;
+border-radius: 100px;
+font-weight: 700;
+margin-top: 0.5rem;
+color: black;
+height: 1.5rem;}
+
+
+.sticky{position: sticky;
+background-color: #121212;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem 0 1rem 0;
+border-radius: 100px;}
+
+
+.sticky-options button{margin-left: 1rem;}
+
+.sticky-options i{margin-right: 2rem;
+}
+
+.badge{margin: 1rem;}
+
+@media (max-width: 1000px){.hide{display: none;}};
+.card-container{
+    
+    display: flex;
+    }
+
+
+
+
+.card{
+
+background-color: #232323;
+    border-radius: 0.5rem;
+    width: 150px;
+    padding-left: 1rem; padding-right: 1rem;
+    
+}
+
+
+.card img{width: 150px
+    ;
+padding-top: 1rem;}
+
+    
+.card-head{font-weight: 700;}
+
+.cards img{width: 150px;}
+
+

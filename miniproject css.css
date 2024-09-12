@@ -1,0 +1,69 @@
+*{margin: 0;
+padding: 0;
+    font-family: "Sawarabi Mincho", serif;
+    font-weight: 400;
+    font-style: normal;}
+
+
+
+.sidebar_menu.logo{width: 100%;
+}
+#check{display: none;}
+
+.sidebar_menu .logo a{color: white;
+text-decoration: none;
+position: absolute;
+left: 60px}
+
+.main_box{height: 100vh;
+background-image: url(minipp.jpg);
+background-size: cover;}
+  
+
+.sidebar_menu{background-color: rgba(255, 255, 255, 0.1);
+    height: 100vh;
+    width: 300px;
+    position: absolute;
+    left: -350px;
+    
+    
+box-shadow: 0 0 6px white;
+padding: 6px;}
+
+.menu{position: absolute;
+width: 100%;
+top: 100px;}
+
+.menu li{
+    margin-top: 6px;
+padding: 14px 20px ;}
+
+.menu ul a{position: absolute;
+    width: 100%;
+left: 60px;}
+
+
+.menu ul i,a{
+   text-decoration: none;
+color:white;}
+
+.btn_one{position: absolute;
+font-size: 20px;}
+.btn_two{position: absolute;
+left: 270px;
+font-size: 20px;}
+
+.social_media ul{position: absolute;
+bottom: 30px;
+left: 80px;
+}
+.social_media ul a{display: inline-block; justify-content: space-around;
+    color: blue;}
+
+.menu li :hover{box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);}
+.btn_one:hover{font-size: 30px;}
+.btn_two:hover{font-size: 25px; cursor: pointer;}
+#check:checked ~.sidebar_menu{left:0;
+transition: all 0.4s linear;}
+
+
